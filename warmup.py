@@ -31,7 +31,7 @@ while video.isOpened():
 
     # Save every 30th frame as a .png
     if frame_index % 30 == 0:
-        filename = f'frame_{frame_index}.png'
+        filename = f'frames/frame_{frame_index}.png'
         cv2.imwrite(filename, frame)
         print(f'Saved {filename}')
 
